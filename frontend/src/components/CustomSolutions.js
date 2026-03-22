@@ -41,7 +41,7 @@ const CustomSolutions = () => {
             
             <ul className={isVisible ? 'animate-on-scroll stagger-2' : ''}>
               <li>προσαρμογή διαστάσεων</li>
-              <li>επιλογή υλικών και φινιρισμάτων</li>
+              <li className="!text-base">επιλογή υλικών και φινιρισμάτων</li>
               <li>χρωματικές επιλογές</li>
               <li>δυνατότητα μεγάλων παραγωγών</li>
             </ul>
@@ -52,8 +52,8 @@ const CustomSolutions = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default CustomSolutions;
