@@ -63,7 +63,12 @@ const About = () => {
           </div>
           
           <div className="about-visual">
-            <div className={`visual-block ${isVisible ? 'animate-on-scroll stagger-2' : ''}`}></div>
+            <div className={`visual-block ${isVisible ? 'animate-on-scroll stagger-2' : ''}`}>
+              <img 
+                src="https://images.unsplash.com/photo-1758055660837-6889c3cb3898?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjd8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBhcmNoaXRlY3R1cmFsJTIwbWF0ZXJpYWxzfGVufDB8fHx8MTc3NDIwMjM4N3ww&ixlib=rb-4.1.0&q=85" 
+                alt="Premium architectural materials"
+              />
+            </div>
           </div>
         </div>
       </div>
