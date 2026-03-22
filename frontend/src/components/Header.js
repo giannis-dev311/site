@@ -24,24 +24,24 @@ const Header = () => {
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <div className="header-logo">
-          <img 
-            src="https://customer-assets.emergentagent.com/job_design-studio-gr/artifacts/poutj85i_image001-removebg-preview.png" 
+          <img
+            src="https://customer-assets.emergentagent.com/job_design-studio-gr/artifacts/poutj85i_image001-removebg-preview.png"
             alt="Klavdianos Design"
-            className="logo-image"
-          />
+            className="logo-image !py-[1px] !shadow-2xl" />
+
         </div>
         
         <nav className="header-nav">
-          <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
-          <button onClick={() => scrollToSection('brands')} className="nav-link">Brands</button>
-          <button onClick={() => scrollToSection('products')} className="nav-link">Products</button>
-          <button onClick={() => scrollToSection('custom')} className="nav-link">Custom</button>
-          <button onClick={() => scrollToSection('showroom')} className="nav-link">Showroom</button>
-          <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
+          <button onClick={() => scrollToSection('about')} className="nav-link !text-[#C24451]">About</button>
+          <button onClick={() => scrollToSection('brands')} className="nav-link !text-[#C24451]">Brands</button>
+          <button onClick={() => scrollToSection('products')} className="nav-link !text-[#C24451]">Products</button>
+          <button onClick={() => scrollToSection('custom')} className="nav-link !text-[#C24451]">Custom</button>
+          <button onClick={() => scrollToSection('showroom')} className="nav-link !text-[#C24451]">Showroom</button>
+          <button onClick={() => scrollToSection('contact')} className="nav-link !text-[#C24451]">Contact</button>
         </nav>
       </div>
-    </header>
-  );
+    </header>);
+
 };
 
 export default Header;
