@@ -25,7 +25,7 @@ const Header = () => {
       <div className="header-container">
         <div className="header-logo">
           <img 
-            src="https://customer-assets.emergentagent.com/job_design-studio-gr/artifacts/2p8bk14t_image.png" 
+            src="https://customer-assets.emergentagent.com/job_design-studio-gr/artifacts/poutj85i_image001-removebg-preview.png" 
             alt="Klavdianos Design"
             className="logo-image"
           />
